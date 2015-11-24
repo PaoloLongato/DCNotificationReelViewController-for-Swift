@@ -45,8 +45,7 @@ class DCNotificationReelController : UIViewController {
     
     override func viewDidLayoutSubviews() {
         self.view.frame = makeFrame()
-        _ = controllers.map({ $0.controller.view.frame = makeNotificationViewFrame($0.height)
-        })
+        _ = controllers.map({ $0.controller.view.frame = makeNotificationViewFrame($0.height) })
         super.viewDidLayoutSubviews()
     }
     
@@ -81,7 +80,7 @@ class DCNotificationReelController : UIViewController {
     }
     
     private func makeNotificationViewFrame(height: Double) -> CGRect {
-        let w = Double(self.view.frame.width) * width
+        let w = Double(self.view.frame.width)
         let h = Double(height)
         return CGRect(origin: CGPoint(x: 0, y: 0), size: CGSize(width: w, height: h))
     }
@@ -104,7 +103,7 @@ class DCNotificationReelController : UIViewController {
     
     func slideOutAndRemove(vc: UIViewController) {
         var newFrame = vc.view.frame
-        newFrame.origin.y = vc.view.frame.origin.y - vc.view.frame.height
+        newFrame.origin.y = vc.view.frame.origin.y + (2 * CGFloat(flowFromBottom) - 1) * vc.view.frame.height
         UIView.animateWithDuration(0.5,
             animations: { vc.view.frame = newFrame },
             completion: { (finished:Bool) -> Void in self.remove(vc); self.slideInNext() })

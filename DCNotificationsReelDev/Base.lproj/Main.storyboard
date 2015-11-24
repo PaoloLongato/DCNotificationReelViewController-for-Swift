@@ -208,6 +208,10 @@
         <scene sceneID="nIZ-Cs-EZJ">
             <objects>
                 <viewController id="OW4-CB-typ" customClass="MyContainedNotificationViewController" customModule="DCNotificationsReelDev" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y63-0U-buI"/>
+                        <viewControllerLayoutGuide type="bottom" id="GJu-jE-ZHC"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Gvm-T2-GZw">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

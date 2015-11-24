@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         // TEST 1: configure the Notification Reel with different parameters
         
         vc.flowFromBottom = false       // True and Fakse
-        vc.position = .Center           // .Left .Center .Right
-        vc.width = 1                    // Between 0 and 1
+        vc.position = .Left           // .Left .Center .Right
+        vc.width = 0.80                    // Between 0 and 1
         vc.statusBarOffset = true       // True and False
         vc.insets = 0                   // Insets, Double
         vc.addTo(self)                  // Needed: takes care of DCNotificationReelController containment
