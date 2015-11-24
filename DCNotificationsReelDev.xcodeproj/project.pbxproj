@@ -14,6 +14,16 @@
 		521A12C91BF601DC00A5B12C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 521A12C71BF601DC00A5B12C /* LaunchScreen.storyboard */; };
 		521A12D41BF601DD00A5B12C /* DCNotificationsReelDevTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A12D31BF601DD00A5B12C /* DCNotificationsReelDevTests.swift */; };
 		521A12DF1BF601DD00A5B12C /* DCNotificationsReelDevUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A12DE1BF601DD00A5B12C /* DCNotificationsReelDevUITests.swift */; };
+		521A12ED1BF6169400A5B12C /* DCNotificationReelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521A12EC1BF6169400A5B12C /* DCNotificationReelController.swift */; };
+		526F680B1BFA39FC009A23FC /* MyNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F680A1BFA39FC009A23FC /* MyNotificationViewController.swift */; };
+		526F7C361C046E5700730535 /* Weakify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F7C351C046E5700730535 /* Weakify.swift */; };
+		52A615261C032DB200298EAD /* MyContainerNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A615251C032DB200298EAD /* MyContainerNotificationViewController.swift */; };
+		52A615281C0349F100298EAD /* MyContainedNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A615271C0349F100298EAD /* MyContainedNotificationViewController.swift */; };
+		52A6152B1C0360C300298EAD /* MyViewControllerFromXIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A615291C0360C300298EAD /* MyViewControllerFromXIB.swift */; };
+		52A6152C1C0360C300298EAD /* MyViewControllerFromXIB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A6152A1C0360C300298EAD /* MyViewControllerFromXIB.xib */; };
+		52A6152E1C03A14E00298EAD /* DCNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6152D1C03A14E00298EAD /* DCNotificationViewController.swift */; };
+		52A615301C03A27200298EAD /* DCContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A6152F1C03A27200298EAD /* DCContainerViewController.swift */; };
+		52A615341C03A7B400298EAD /* DCContainedNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A615331C03A7B400298EAD /* DCContainedNotificationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		521A12DA1BF601DD00A5B12C /* DCNotificationsReelDevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCNotificationsReelDevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		521A12DE1BF601DD00A5B12C /* DCNotificationsReelDevUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCNotificationsReelDevUITests.swift; sourceTree = "<group>"; };
 		521A12E01BF601DD00A5B12C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		521A12EC1BF6169400A5B12C /* DCNotificationReelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCNotificationReelController.swift; sourceTree = "<group>"; };
+		526F680A1BFA39FC009A23FC /* MyNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNotificationViewController.swift; sourceTree = "<group>"; };
+		526F7C351C046E5700730535 /* Weakify.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weakify.swift; sourceTree = "<group>"; };
+		52A615251C032DB200298EAD /* MyContainerNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContainerNotificationViewController.swift; sourceTree = "<group>"; };
+		52A615271C0349F100298EAD /* MyContainedNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyContainedNotificationViewController.swift; sourceTree = "<group>"; };
+		52A615291C0360C300298EAD /* MyViewControllerFromXIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewControllerFromXIB.swift; sourceTree = "<group>"; };
+		52A6152A1C0360C300298EAD /* MyViewControllerFromXIB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewControllerFromXIB.xib; sourceTree = "<group>"; };
+		52A6152D1C03A14E00298EAD /* DCNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCNotificationViewController.swift; sourceTree = "<group>"; };
+		52A6152F1C03A27200298EAD /* DCContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCContainerViewController.swift; sourceTree = "<group>"; };
+		52A615331C03A7B400298EAD /* DCContainedNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCContainedNotificationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,8 @@
 		521A12BD1BF601DC00A5B12C /* DCNotificationsReelDev */ = {
 			isa = PBXGroup;
 			children = (
-				521A12BE1BF601DC00A5B12C /* AppDelegate.swift */,
-				521A12C01BF601DC00A5B12C /* ViewController.swift */,
-				521A12C21BF601DC00A5B12C /* Main.storyboard */,
-				521A12C51BF601DC00A5B12C /* Assets.xcassets */,
-				521A12C71BF601DC00A5B12C /* LaunchScreen.storyboard */,
-				521A12CA1BF601DC00A5B12C /* Info.plist */,
+				52A615351C03AADA00298EAD /* Classes */,
+				52A615361C03AB0900298EAD /* Implementation */,
 			);
 			path = DCNotificationsReelDev;
 			sourceTree = "<group>";
@@ -123,6 +139,36 @@
 				521A12E01BF601DD00A5B12C /* Info.plist */,
 			);
 			path = DCNotificationsReelDevUITests;
+			sourceTree = "<group>";
+		};
+		52A615351C03AADA00298EAD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				521A12EC1BF6169400A5B12C /* DCNotificationReelController.swift */,
+				52A6152D1C03A14E00298EAD /* DCNotificationViewController.swift */,
+				52A6152F1C03A27200298EAD /* DCContainerViewController.swift */,
+				52A615331C03A7B400298EAD /* DCContainedNotificationViewController.swift */,
+				526F7C351C046E5700730535 /* Weakify.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		52A615361C03AB0900298EAD /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				526F680A1BFA39FC009A23FC /* MyNotificationViewController.swift */,
+				52A615251C032DB200298EAD /* MyContainerNotificationViewController.swift */,
+				52A615271C0349F100298EAD /* MyContainedNotificationViewController.swift */,
+				52A615291C0360C300298EAD /* MyViewControllerFromXIB.swift */,
+				52A6152A1C0360C300298EAD /* MyViewControllerFromXIB.xib */,
+				521A12C21BF601DC00A5B12C /* Main.storyboard */,
+				521A12C01BF601DC00A5B12C /* ViewController.swift */,
+				521A12BE1BF601DC00A5B12C /* AppDelegate.swift */,
+				521A12C51BF601DC00A5B12C /* Assets.xcassets */,
+				521A12C71BF601DC00A5B12C /* LaunchScreen.storyboard */,
+				521A12CA1BF601DC00A5B12C /* Info.plist */,
+			);
+			name = Implementation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A6152C1C0360C300298EAD /* MyViewControllerFromXIB.xib in Resources */,
 				521A12C91BF601DC00A5B12C /* LaunchScreen.storyboard in Resources */,
 				521A12C61BF601DC00A5B12C /* Assets.xcassets in Resources */,
 				521A12C41BF601DC00A5B12C /* Main.storyboard in Resources */,
@@ -256,8 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526F680B1BFA39FC009A23FC /* MyNotificationViewController.swift in Sources */,
+				52A615301C03A27200298EAD /* DCContainerViewController.swift in Sources */,
+				521A12ED1BF6169400A5B12C /* DCNotificationReelController.swift in Sources */,
+				52A6152E1C03A14E00298EAD /* DCNotificationViewController.swift in Sources */,
 				521A12C11BF601DC00A5B12C /* ViewController.swift in Sources */,
+				52A615261C032DB200298EAD /* MyContainerNotificationViewController.swift in Sources */,
+				526F7C361C046E5700730535 /* Weakify.swift in Sources */,
+				52A615341C03A7B400298EAD /* DCContainedNotificationViewController.swift in Sources */,
+				52A6152B1C0360C300298EAD /* MyViewControllerFromXIB.swift in Sources */,
 				521A12BF1BF601DC00A5B12C /* AppDelegate.swift in Sources */,
+				52A615281C0349F100298EAD /* MyContainedNotificationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -387,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -484,6 +540,7 @@
 				521A12E51BF601DD00A5B12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521A12E61BF601DD00A5B12C /* Build configuration list for PBXNativeTarget "DCNotificationsReelDevTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +549,7 @@
 				521A12E81BF601DD00A5B12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		521A12E91BF601DD00A5B12C /* Build configuration list for PBXNativeTarget "DCNotificationsReelDevUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +558,7 @@
 				521A12EB1BF601DD00A5B12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
