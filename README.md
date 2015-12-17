@@ -1,4 +1,5 @@
 # DCNotificationReelViewController-for-Swift
+![alt tag](https://dl.dropboxusercontent.com/u/82715482/notifications.gif)
 
 ## Design your notification views
 - Library code is in the group "Classes"
